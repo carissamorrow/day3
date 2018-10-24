@@ -1,26 +1,50 @@
-.container {
-  background: #000;
-  width: 132px;
-  height: 380px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3px;
-}
-.light {
-  background: #000;
-  width: 132px;
-  height: 380px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3px;
+.light{
+  width: 50px;
+  height: 50px;
+  border-radius:50%; 
+  margin: 12px;
+  transition: all .25s linear;
 }
 
-#red {
-  background-color: red;
+.light.hover{
+  box-shadow: 1px 1px 1px grey;
 }
-#yellow {
-    background-color:yellow;
-  }
-#green {
-    background-color:green;
+
+.pole{
+  height: 50px;
+  width: 30px;
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  left: 53%;
+}
+.base{
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  height: 200px;
+  width: 75px;
+  background: black;
+}
+.red{
+  background-color:red;
+}
+.red:hover{
+  background-color:darkred;
+  cursor:pointer;
+}
+.green{
+  background-color:green;
+}
+.green:hover{
+  background-color:darkgreen;
+}
+
+.yellow{
+  background-color:yellow;
+}
+
+.yellow:hover{
+  background-color:darkgrey;
 }
